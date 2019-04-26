@@ -1,0 +1,343 @@
+.nav-pills > li a.active {
+    background-color: hsl(12, 76%, 60%);
+    color: #000;
+}
+
+.badge-notification {
+    color: #000;
+}
+
+html {
+    font-size: 14px;
+    color: #24292e;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+code, pre {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+}
+
+.cooked, .d-editor-preview {
+    line-height: 1.5 !important;
+}
+
+li {
+    margin-top: .25em;
+}
+
+nav.post-controls button {
+    font-size: 1em;
+}
+
+.names span.first a {
+    color: #586069;
+    font-weight: 600;
+}
+
+.names span.second a {
+    color: hsla(212, 9%, 38%, .5);
+    font-weight: 400;
+}
+
+img.avatar,
+.topic-avatar {
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* Spacing */
+
+.cooked > p:last-child {
+    margin-bottom: 0 !important;
+}
+
+.post-menu-area {
+    margin: 3px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.topic-body .regular {
+    margin-top: 5px;
+}
+
+
+/** Quote style */
+
+blockquote,
+aside.quote .title {
+    padding: 10px 13px;
+    /*     background-color: hsla(170, 100%, 96%, 1); */
+    /*     border-left: 3px solid hsla(170, 100%, 80%, 1); */
+    background-color: hsl(170, 20%, 95%);
+    border-left: 4px solid hsl(170, 0%, 66%);
+}
+
+p > code,
+li > code,
+pre > code {
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    padding: 2px 4px 2px 5px;
+    color: hsl(174, 100%, 33%);
+    /*     color: hsla(174, 100%, 40%, 1); */
+    font-size: 85%;
+}
+
+pre > code {
+    line-height: 1.45;
+    overflow: auto;
+    padding: 10px !important;
+    padding-bottom: 16px !important;
+}
+
+a.mention,
+a.mention-group {
+    background-color: #eff0f1;
+    border-radius: 4px;
+    color: hsl(330, 100%, 55%);
+}
+
+
+/* Code styles */
+
+.hljs-keyword,
+.javascript .hljs-title,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+    color: hsl(330, 80%, 39%);
+    font-weight: normal;
+}
+
+.hljs-title,
+.hljs-name,
+.coffeescript .hljs-params,
+.scss .hljs-meta {
+    font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.haskell .hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+    color: hsl(225, 60%, 40%);
+    font-weight: normal;
+}
+
+.hljs-string,
+.hljs-tag .hljs-string,
+.tex .hljs-formula {
+    color: hsl(14, 66%, 48%);
+}
+
+.hljs-comment,
+.hljs-doctag {
+    color: hsl(60, 0%, 60%);
+}
+
+.hljs {
+    color: #000;
+}
+
+
+/* Custom comment styling  */
+
+.topic-post,
+.embedded-posts.bottom .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 0px !important;
+    padding-bottom: 0;
+}
+
+.embedded-posts.top.topic-body {
+    margin-bottom: 15px;
+}
+
+.embedded-posts.bottom {
+    margin-bottom: 0;
+}
+
+.topic-avatar {
+    padding-top: 0;
+    margin: 0px 0px 15px 15px;
+    border: none;
+}
+
+.topic-body {
+    padding: 0 0 0px 0;
+    margin-left: 15px;
+    border: 1px solid #d1d5da !important;
+    border-radius: 3px;
+    color: #24292e;
+    position: relative;
+}
+
+.topic-body > .topic-meta-data {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #d1d5da;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #586069;
+    padding: 10px 15px;
+}
+
+.regular.contents {
+    overflow: visible;
+    padding: 0;
+    margin: 15px;
+}
+
+.regular.contents > .cooked {
+    margin: 0px;
+}
+
+.cooked {
+    padding: 0 !important;
+    margin: 15px;
+}
+
+a.reply-to-tab .avatar {
+    display: none;
+}
+
+a.reply-to-tab svg.fa.d-icon {
+    margin-right: 0.5em;
+}
+
+.btn-flat .d-icon,
+nav.post-controls button.create,
+nav.post-controls a,
+nav.post-controls button,
+nav.post-controls button.create .d-icon,
+.topic-meta-data .post-info a,
+.topic-body .reply-to-tab {
+    /*     color: green; */
+    color: hsla(212, 9%, 38%, .5);
+    opacity: 1 !important;
+}
+
+.topic-meta-data .post-info a.post-date {
+    color: rgb(88, 96, 105);
+}
+
+nav.post-controls button.d-hover,
+nav.post-controls button:focus {
+    color: #222;
+}
+
+section.post-menu-area {
+    padding-left: 0;
+}
+
+.read-state {
+    display: none;
+}
+
+nav.post-controls button.d-hover,
+nav.post-controls button:focus,
+nav.post-controls .like-button:hover button,
+nav.post-controls .like-button button.like-count+.toggle-like.d-hover {
+    background: none;
+}
+
+nav.post-controls button:active {
+    box-shadow: none;
+}
+
+.btn-flat {
+    transition-duration: 0s;
+}
+
+.who-liked img.avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.regular .embedded-posts.bottom button.collapse-up,
+.regular .embedded-posts.top button.collapse-down {
+    display: none;
+}
+
+.embedded-posts,
+.topic-avatar {
+    border: none !important;
+}
+
+.embedded-posts .topic-avatar {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.reply-to-tab svg {
+    display: none
+}
+
+.topic-meta-data {
+    display: block;
+}
+
+.topic-meta-data .names,
+.topic-meta-data .names span.first,
+.topic-meta-data .post-infos,
+.topic-meta-data .post-info,
+.topic-body .reply-to-tab {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.topic-meta-data .post-infos:before {
+    content: "commented ";
+}
+
+.topic-meta-data .post-infos:after {
+    content: " ago ";
+    white-space: pre;
+}
+
+.topic-meta-data .read-state {
+    top: 1.22rem;
+}
+
+.topic-meta-data .reply-to-tab:before {
+    content: "in reply to ";
+}
+
+.topic-body .reply-to-tab {
+    float: right;
+}
+
+.topic-meta-data .names span:after {
+    content: "\00a0";
+}
+
+section.post-menu-area {
+    position: absolute;
+    top: -50px;
+    right: -8px;
+}
+
+.post-menu-area {
+    margin: 0;
+}
+
+.names span {
+    margin-right: 0;
+}
+
+.names .second {
+    display: none;
+}
+
+nav.post-controls *:hover {
+    background: none !important;
+}
+.post-menu-area {
