@@ -218,7 +218,6 @@ nav.post-controls button,
 nav.post-controls button.create .d-icon,
 .topic-meta-data .post-info a,
 .topic-body .reply-to-tab {
-    /*     color: green; */
     color: hsla(212, 9%, 38%, .5);
     opacity: 1 !important;
 }
@@ -340,4 +339,3 @@ section.post-menu-area {
 nav.post-controls *:hover {
     background: none !important;
 }
-.post-menu-area {
